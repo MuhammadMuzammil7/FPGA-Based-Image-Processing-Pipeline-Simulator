@@ -13,10 +13,7 @@ The pipeline consists of the following stages:
    - Simulates an FPGA frame reader fetching a full frame into local memory.
 
 2. **Color Converter**
-   - Converts RGB images to grayscale using a simple average:
-     ```
-     gray = (R + G + B) / 3
-     ```
+   - Converts RGB images to grayscale.
    - Prepares the image for further processing.
 
 3. **Smoothing Filter**
