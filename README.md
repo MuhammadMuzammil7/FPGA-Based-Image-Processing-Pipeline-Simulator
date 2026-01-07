@@ -38,7 +38,7 @@ The pipeline consists of the following stages:
    - Computes edge magnitude as `|Gx| + |Gy|`.
 
 5. **Output Writer**
-   - Writes the processed frame buffer to a **binary PPM image** (`output.ppm`).
+   - Writes the processed frame buffer to a **binary PPM image** (`output.ppm`), which can be viewed on any image viewer.
 
 ---
 
